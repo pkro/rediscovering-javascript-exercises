@@ -1,0 +1,19 @@
+{
+  "name": "rediscoverjs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon $*",
+    "debug": "nodemon --inspect $*"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "dependencies": {
+    "ramda": "^0.27.1"
+  }
+}
